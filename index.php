@@ -46,15 +46,14 @@
     if (isset($_POST['nom3']) and isset($_POST['prenom3']) and isset($_POST['civilite']) AND isset($_FILES['fichier'])) {
         echo "tu te nomme " . $_POST['civilite'] . " " . $_POST['prenom3'] . " " . $_POST['nom3'];
         echo "tu as envoyé le fichier : " . $_FILES['fichier']['name'] . "<br>";
-        // if (isset($_FILES['fichier'])) {
-        //     echo "tu as envoyé le fichier : " . $_FILES['fichier']['name'];
-            $allowExtensions = array('pdf');
-            $extensio = pathinfo($_FILES['fichier']['name'], PATHINFO_EXTENSION); 
-            if (!in_array($extensio, $allowExtensions)) {
-                echo "tu n'as pas mis un fichier dont l'extension est permise";
-            } else {
-                echo "bravo tu sais lire";
-            }
+        
+        $allowExtensions = array('pdf');
+        $extensio = pathinfo($_FILES['fichier']['name'], PATHINFO_EXTENSION); 
+        if (!in_array($extensio, $allowExtensions)) {
+            echo "tu n'as pas mis un fichier dont l'extension est permise";
+        } else {
+            echo "bravo tu sais lire";
+        }
             
                 
             
