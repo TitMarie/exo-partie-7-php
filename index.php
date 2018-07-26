@@ -15,9 +15,9 @@
     <br>
         <fieldset>
         <p> Nom :
-        <input type="text" name="nom" required></input>
+        <input type="text" name="nom" required>
         Prénom :
-        <input type="text" name="prenom" required></input>
+        <input type="text" name="prenom" required>
         <p/>
         <button type="submit">Click me</button>
         </fieldset>
@@ -30,9 +30,9 @@
         <br>
             <fieldset>
             <p> Nom :
-                <input type="text" name="nom1" required></input>
+                <input type="text" name="nom1" required>
             Prénom :
-                <input type="text" name="prenom1" required></input>
+                <input type="text" name="prenom1" required>
             <p/>
             <button type="submit">Click me</button>
             </fieldset>
@@ -70,12 +70,12 @@
                     </select>
                 </P>
                 <p> Nom :
-                    <input type="text" name="nom3" required></input>
+                    <input type="text" name="nom3" required>
                 Prénom :
-                    <input type="text" name="prenom3" required></input>
+                    <input type="text" name="prenom3" required>
                 <p/>
                 <p>
-                    <input type="file" name="fichier"></input>
+                    <input type="file" name="fichier">
                 </p>
                 <button type="submit">Click me</button>
                 </fieldset>
